@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        section {
+            width: 60%;
+            height: 150px;
+            background-color: pink;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        section div:nth-child(1) {
+            width: 100px;
+            height: 150px;
+            background-color: red;
+        }
+
+        section div:nth-child(2) {
+            flex: 1;
+            background-color: green;
+        }
+
+        section div:nth-child(3) {
+            width: 100px;
+            height: 150px;
+            background-color: blue;
+        }
+
+        p {
+            width: 60%;
+            height: 150px;
+            background-color: pink;
+            margin: 100px auto;
+            display: flex;
+        }
+
+        p span {
+            flex: 1;
+        }
+
+        p span:nth-child(1) {
+            background-color: red;
+        }
+
+        p span:nth-child(2) {
+            flex: 2;
+            background-color: green;
+        }
+
+        p span:nth-child(3) {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<p>
+    <span></span>
+    <span></span>
+    <span></span>
+</p>
+</body>
+</html>
